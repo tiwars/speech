@@ -1,0 +1,30 @@
+{
+  "name": "speech",
+  "version": "1.0.0",
+  "description": "speech-to-text",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "deploy": "gcloud app deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^4.0.0",
+    "@google-cloud/speech": "^2.3.1",
+    "@google-cloud/storage": "^2.5.0",
+    "atob": "^2.1.2",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.2",
+    "express-validator": "^3.2.0",
+    "handlebars": "*",
+    "lodash": "^4.17.4",
+    "method-override": "^2.3.8",
+    "node-record-lpcm16": "^0.3.1"
+  }
+}
