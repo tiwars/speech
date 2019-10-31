@@ -23,7 +23,7 @@
     "express-session": "^1.15.2",
     "express-validator": "^3.2.0",
     "handlebars": "*",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "method-override": "^2.3.8",
     "node-record-lpcm16": "^0.3.1"
   }
